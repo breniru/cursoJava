@@ -6,10 +6,15 @@ public class Turma {
 	String nome;
 	String telefone;
 	String email;
+
 	
 	//Construtor
 	public Turma() {
 		System.out.println("______________");
+	}
+	
+	public void beberAguaAluno() {
+		beberAgua();
 	}
 	
 	void ligarPc() {
@@ -24,5 +29,8 @@ public class Turma {
 		System.out.println("Computador desligado");
 	}
 	
+	private void beberAgua() {
+		System.out.println("Ir ao bebedouro para beber água");
+	}
 	
 }
